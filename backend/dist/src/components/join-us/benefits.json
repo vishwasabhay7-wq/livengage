@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_join_us_benefits",
+    "info": {
+        "displayName": "Benefits",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "eyebrow": {
+            "type": "string"
+        },
+        "heading": {
+            "type": "string"
+        },
+        "items": {
+            "type": "component",
+            "repeatable": true,
+            "component": "join-us.benefit-item"
+        }
+    }
+}

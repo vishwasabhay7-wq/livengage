@@ -1,0 +1,54 @@
+{
+    "collectionName": "components_partner_app_heroes",
+    "info": {
+        "displayName": "Hero"
+    },
+    "attributes": {
+        "badgeText": {
+            "type": "string"
+        },
+        "titlePart1": {
+            "type": "string"
+        },
+        "titleHighlight": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "primaryCtaLabel": {
+            "type": "string"
+        },
+        "primaryCtaUrl": {
+            "type": "string"
+        },
+        "secondaryCtaLabel": {
+            "type": "string"
+        },
+        "secondaryCtaUrl": {
+            "type": "string"
+        },
+        "statsValue": {
+            "type": "string"
+        },
+        "statsLabel": {
+            "type": "string"
+        },
+        "heroImage": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images",
+                "files"
+            ]
+        },
+        "avatars": {
+            "type": "media",
+            "multiple": true,
+            "allowedTypes": [
+                "images",
+                "files"
+            ]
+        }
+    }
+}

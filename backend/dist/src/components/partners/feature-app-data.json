@@ -1,0 +1,34 @@
+{
+    "collectionName": "components_partners_feature_app_data",
+    "info": {
+        "displayName": "Feature App Data",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "default": "Feature App Data"
+        },
+        "heroImage": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "featured": {
+            "type": "boolean",
+            "default": false
+        },
+        "video": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "videos"
+            ]
+        }
+    }
+}

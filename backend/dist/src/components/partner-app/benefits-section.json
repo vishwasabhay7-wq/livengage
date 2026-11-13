@@ -1,0 +1,13 @@
+{
+    "collectionName": "components_partner_app_benefits",
+    "info": {
+        "displayName": "Benefits Section"
+    },
+    "attributes": {
+        "benefits": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.value-item"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_partner_app_faq_sections",
+    "info": {
+        "displayName": "FAQ Section"
+    },
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "titleHighlight": {
+            "type": "string"
+        },
+        "faqs": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.faq-item"
+        }
+    }
+}

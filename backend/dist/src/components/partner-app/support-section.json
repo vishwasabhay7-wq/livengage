@@ -1,0 +1,35 @@
+{
+    "collectionName": "components_partner_app_support_sections",
+    "info": {
+        "displayName": "Support Section"
+    },
+    "attributes": {
+        "badgeText": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "primaryCtaLabel": {
+            "type": "string"
+        },
+        "primaryCtaUrl": {
+            "type": "string"
+        },
+        "secondaryCtaLabel": {
+            "type": "string"
+        },
+        "secondaryCtaUrl": {
+            "type": "string"
+        },
+        "phone": {
+            "type": "string"
+        },
+        "email": {
+            "type": "string"
+        }
+    }
+}

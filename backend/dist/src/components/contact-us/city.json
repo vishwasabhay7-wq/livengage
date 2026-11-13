@@ -1,0 +1,13 @@
+{
+    "collectionName": "components_contact_us_cities",
+    "info": {
+        "displayName": "City",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "name": {
+            "type": "string"
+        }
+    }
+}

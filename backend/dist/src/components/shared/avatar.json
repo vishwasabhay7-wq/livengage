@@ -1,0 +1,33 @@
+{
+    "collectionName": "components_shared_avatars",
+    "info": {
+        "displayName": "Avatar",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "type": {
+            "type": "enumeration",
+            "enum": [
+                "image",
+                "initials"
+            ],
+            "required": true,
+            "default": "image"
+        },
+        "src": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "alt": {
+            "type": "string"
+        },
+        "initials": {
+            "type": "string"
+        }
+    }
+}

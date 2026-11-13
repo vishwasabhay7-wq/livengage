@@ -1,0 +1,18 @@
+{
+    "collectionName": "components_about_timelines",
+    "info": {
+        "displayName": "Timeline",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "heading": {
+            "type": "string"
+        },
+        "Items": {
+            "type": "component",
+            "component": "shared.timeline-item",
+            "repeatable": true
+        }
+    }
+}

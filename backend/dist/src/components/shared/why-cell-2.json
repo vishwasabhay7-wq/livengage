@@ -1,0 +1,23 @@
+{
+    "collectionName": "components_shared_why_cell_2s",
+    "info": {
+        "displayName": "Why Cell 2 (Stats)",
+        "icon": "chart-pie",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "heading": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "bigNumber": {
+            "type": "string"
+        },
+        "label": {
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_become_an_agent_application_sections",
+    "info": {
+        "displayName": "Application Section",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "heading": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        }
+    }
+}

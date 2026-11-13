@@ -1,0 +1,63 @@
+{
+    "collectionName": "components_become_an_agent_heroes",
+    "info": {
+        "displayName": "Hero",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "badge": {
+            "type": "string"
+        },
+        "headingPart1": {
+            "type": "string"
+        },
+        "headingHighlight": {
+            "type": "string"
+        },
+        "headingPart3": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "primaryCtaLabel": {
+            "type": "string"
+        },
+        "primaryCtaHref": {
+            "type": "string"
+        },
+        "secondaryCtaLabel": {
+            "type": "string"
+        },
+        "secondaryCtaHref": {
+            "type": "string"
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "stat1Value": {
+            "type": "string"
+        },
+        "stat1Label": {
+            "type": "string"
+        },
+        "stat2Value": {
+            "type": "string"
+        },
+        "stat2Label": {
+            "type": "string"
+        },
+        "stat3Value": {
+            "type": "string"
+        },
+        "stat3Label": {
+            "type": "string"
+        }
+    }
+}

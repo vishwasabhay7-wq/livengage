@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_partner_app_tools_sections",
+    "info": {
+        "displayName": "Tools Section"
+    },
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "titleHighlight": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "tools": {
+            "type": "component",
+            "repeatable": true,
+            "component": "partner-app.tool-item"
+        }
+    }
+}

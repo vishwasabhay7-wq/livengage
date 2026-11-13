@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_become_an_agent_revenue_tiers",
+    "info": {
+        "displayName": "Revenue Tier",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "number": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "collectionName": "components_about_core_values",
+    "info": {
+        "displayName": "Core Values",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "heading": {
+            "type": "string"
+        },
+        "Items": {
+            "type": "component",
+            "component": "shared.value-item",
+            "repeatable": true
+        }
+    }
+}

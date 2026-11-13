@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_partner_app_steps_sections",
+    "info": {
+        "displayName": "Steps Section"
+    },
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "titleHighlight": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "steps": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.value-item"
+        }
+    }
+}

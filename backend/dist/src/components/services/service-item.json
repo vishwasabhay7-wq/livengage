@@ -1,0 +1,38 @@
+{
+    "collectionName": "components_services_service_items",
+    "info": {
+        "displayName": "Service Item",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "icon": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "features": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.feature"
+        },
+        "linkText": {
+            "type": "string"
+        },
+        "href": {
+            "type": "string"
+        },
+        "accentColor": {
+            "type": "enumeration",
+            "enum": [
+                "primary",
+                "secondary",
+                "tertiary"
+            ]
+        }
+    }
+}

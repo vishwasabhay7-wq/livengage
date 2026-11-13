@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_partner_app_tool_items",
+    "info": {
+        "displayName": "Tool Item"
+    },
+    "attributes": {
+        "icon": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "features": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.feature"
+        }
+    }
+}

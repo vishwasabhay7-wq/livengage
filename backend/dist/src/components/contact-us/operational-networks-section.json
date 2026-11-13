@@ -1,0 +1,15 @@
+{
+    "collectionName": "components_contact_us_operational_networks_sections",
+    "info": {
+        "displayName": "Operational Networks Section",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "networks": {
+            "type": "component",
+            "repeatable": true,
+            "component": "contact-us.region-node"
+        }
+    }
+}

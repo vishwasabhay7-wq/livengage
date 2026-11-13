@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_become_a_host_stat_items",
+    "info": {
+        "displayName": "Stat Item",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "string"
+        }
+    }
+}

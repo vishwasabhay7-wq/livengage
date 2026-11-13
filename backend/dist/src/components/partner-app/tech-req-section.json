@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_partner_app_tech_req_sections",
+    "info": {
+        "displayName": "Tech Requirements Section"
+    },
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "requirements": {
+            "type": "component",
+            "repeatable": true,
+            "component": "partner-app.tech-req"
+        }
+    }
+}

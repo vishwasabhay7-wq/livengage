@@ -1,0 +1,26 @@
+{
+    "collectionName": "components_become_an_agent_revenue_model_sections",
+    "info": {
+        "displayName": "Revenue Model Section",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "heading": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "tiers": {
+            "type": "component",
+            "component": "become-an-agent.revenue-tier",
+            "repeatable": true
+        },
+        "Projection": {
+            "type": "component",
+            "component": "become-an-agent.revenue-projection",
+            "repeatable": false
+        }
+    }
+}

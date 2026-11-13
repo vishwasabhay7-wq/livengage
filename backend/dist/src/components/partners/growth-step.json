@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_partners_growth_steps",
+    "info": {
+        "displayName": "Growth Step",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "icon": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "iconBackgroundColor": {
+            "type": "string"
+        }
+    }
+}

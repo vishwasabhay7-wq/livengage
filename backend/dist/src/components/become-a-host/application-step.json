@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_become_a_host_application_steps",
+    "info": {
+        "displayName": "Application Step",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "icon": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        }
+    }
+}

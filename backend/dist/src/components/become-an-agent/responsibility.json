@@ -1,0 +1,61 @@
+{
+    "collectionName": "components_become_an_agent_responsibilities",
+    "info": {
+        "displayName": "Responsibility",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "icon": {
+            "type": "enumeration",
+            "enum": [
+                "star",
+                "videocam",
+                "forum",
+                "group_add",
+                "model_training",
+                "trending_up",
+                "rocket_launch",
+                "support_agent",
+                "workpaces",
+                "monetization_on",
+                "payments",
+                "schedule",
+                "verified",
+                "public",
+                "headset_mic",
+                "campaign",
+                "diversity_3",
+                "smart_toy",
+                "insights",
+                "military_tech",
+                "person_search",
+                "groups",
+                "emoji_events",
+                "diamond",
+                "bolt",
+                "analytics"
+            ]
+        },
+        "themeColor": {
+            "type": "enumeration",
+            "enum": [
+                "primary",
+                "secondary",
+                "tertiary"
+            ],
+            "default": "primary"
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "checklist": {
+            "type": "component",
+            "repeatable": true,
+            "component": "become-an-agent.responsibility-item"
+        }
+    }
+}

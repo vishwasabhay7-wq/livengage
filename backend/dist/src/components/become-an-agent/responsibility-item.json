@@ -1,0 +1,13 @@
+{
+    "collectionName": "components_become_an_agent_responsibility_items",
+    "info": {
+        "displayName": "Responsibility Item",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "text": {
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_partners_growth_loops",
+    "info": {
+        "displayName": "Growth Loop",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "steps": {
+            "type": "component",
+            "repeatable": true,
+            "component": "partners.growth-step"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "collectionName": "components_partners_integration_sections",
+    "info": {
+        "displayName": "Integration Section",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "Features": {
+            "type": "component",
+            "component": "partners.integration-feature",
+            "repeatable": true
+        }
+    }
+}

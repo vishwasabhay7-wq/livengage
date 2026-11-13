@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_join_us_heroes",
+    "info": {
+        "displayName": "Hero",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "headingPart1": {
+            "type": "string"
+        },
+        "headingHighlight": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        }
+    }
+}

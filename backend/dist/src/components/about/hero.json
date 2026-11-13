@@ -1,0 +1,39 @@
+{
+    "collectionName": "components_about_heroes",
+    "info": {
+        "displayName": "Hero",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "badge": {
+            "type": "string"
+        },
+        "heading": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "bgImage": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "primaryCtaLabel": {
+            "type": "string"
+        },
+        "primaryCtaHref": {
+            "type": "string"
+        },
+        "secondaryCtaLabel": {
+            "type": "string"
+        },
+        "secondaryCtaHref": {
+            "type": "string"
+        }
+    }
+}

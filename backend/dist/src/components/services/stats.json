@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_services_stats",
+    "info": {
+        "displayName": "Stats",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "stats": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.stat-item",
+            "max": 4
+        }
+    }
+}

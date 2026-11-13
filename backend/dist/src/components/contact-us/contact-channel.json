@@ -1,0 +1,34 @@
+{
+    "collectionName": "components_contact_us_contact_channels",
+    "info": {
+        "displayName": "Contact Channel",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "icon": {
+            "type": "string"
+        },
+        "themeColor": {
+            "type": "enumeration",
+            "enum": [
+                "primary",
+                "secondary",
+                "tertiary"
+            ],
+            "default": "primary"
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "linkText": {
+            "type": "string"
+        },
+        "linkHref": {
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "collectionName": "components_partners_heroes",
+    "info": {
+        "displayName": "Hero",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "badge": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "titleHighlight": {
+            "type": "string"
+        },
+        "titlePart3": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "primaryButtonText": {
+            "type": "string"
+        },
+        "secondaryButtonText": {
+            "type": "string"
+        }
+    }
+}
