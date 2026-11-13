@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contact_us_heroes",
+  "info": {
+    "displayName": "Hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleStart": {
+      "type": "string"
+    },
+    "highlightWord": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

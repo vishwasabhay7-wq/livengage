@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_partner_app_tech_reqs",
+  "info": {
+    "displayName": "Tech Requirement"
+  },
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "componentName": {
+      "type": "string"
+    },
+    "iosReq": {
+      "type": "string"
+    },
+    "androidReq": {
+      "type": "string"
+    },
+    "sharedReq": {
+      "type": "string"
+    }
+  }
+}

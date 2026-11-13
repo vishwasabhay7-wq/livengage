@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_partner_app_testimonials_sections",
+  "info": {
+    "displayName": "Testimonials Section"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "titleHighlight": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.testimonial-card"
+    }
+  }
+}

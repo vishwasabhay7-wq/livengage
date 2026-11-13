@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_home_ctas",
+  "info": {
+    "displayName": "CTA",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headingPart1": {
+      "type": "string",
+      "required": true
+    },
+    "headingHighlight": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "primaryCtaLabel": {
+      "type": "string",
+      "required": true
+    },
+    "primaryCtaHref": {
+      "type": "string",
+      "required": true
+    },
+    "secondaryCtaLabel": {
+      "type": "string",
+      "required": true
+    },
+    "secondaryCtaHref": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

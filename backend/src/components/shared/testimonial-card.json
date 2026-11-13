@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_testimonial_cards",
+  "info": {
+    "displayName": "Testimonial Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text",
+      "required": true
+    },
+    "author": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "component",
+      "component": "shared.avatar",
+      "repeatable": false
+    },
+    "rating": {
+      "type": "integer",
+      "default": 5,
+      "min": 1,
+      "max": 5
+    }
+  }
+}

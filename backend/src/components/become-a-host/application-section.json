@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_become_a_host_application_sections",
+  "info": {
+    "displayName": "Application Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Steps": {
+      "type": "component",
+      "component": "become-a-host.application-step",
+      "repeatable": true
+    }
+  }
+}

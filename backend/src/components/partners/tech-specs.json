@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_partners_tech_specs",
+  "info": {
+    "displayName": "Tech Specs Grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metrics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partners.metric"
+    }
+  }
+}

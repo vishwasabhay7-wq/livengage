@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_partners_cta_sections",
+  "info": {
+    "displayName": "CTA Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "primaryButtonText": {
+      "type": "string"
+    },
+    "secondaryButtonText": {
+      "type": "string"
+    }
+  }
+}

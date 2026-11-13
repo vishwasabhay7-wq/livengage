@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_partners_platforms",
+  "info": {
+    "displayName": "Platform",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "platformId": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "main",
+        "community",
+        "innovation",
+        "emerging"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "shortName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "highlight": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Stats": {
+      "type": "component",
+      "component": "partners.metric",
+      "repeatable": true
+    }
+  }
+}

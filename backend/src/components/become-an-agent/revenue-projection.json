@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_become_an_agent_revenue_projections",
+  "info": {
+    "displayName": "Revenue Projection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "teamSize1": {
+      "type": "string"
+    },
+    "override1": {
+      "type": "string"
+    },
+    "revenue1": {
+      "type": "string"
+    },
+    "teamSize2": {
+      "type": "string"
+    },
+    "override2": {
+      "type": "string"
+    },
+    "revenue2": {
+      "type": "string"
+    },
+    "disclaimer": {
+      "type": "string"
+    }
+  }
+}

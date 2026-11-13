@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_shared_timeline_items",
+  "info": {
+    "displayName": "Timeline Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "tertiary"
+      ]
+    },
+    "layout": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    },
+    "statValue": {
+      "type": "string"
+    },
+    "statLabel": {
+      "type": "string"
+    }
+  }
+}

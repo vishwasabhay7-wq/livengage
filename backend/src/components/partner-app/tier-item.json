@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_partner_app_tier_items",
+  "info": {
+    "displayName": "Tier Item"
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "splitText": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "isPopular": {
+      "type": "boolean",
+      "default": false
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.feature"
+    }
+  }
+}

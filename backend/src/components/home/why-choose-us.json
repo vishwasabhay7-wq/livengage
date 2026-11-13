@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_home_why_choose_us",
+  "info": {
+    "displayName": "Why Choose Us",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "badge1": {
+      "type": "string",
+      "required": true
+    },
+    "badge2": {
+      "type": "string",
+      "required": true
+    },
+    "cell2": {
+      "type": "component",
+      "component": "shared.why-cell-2",
+      "repeatable": false
+    },
+    "cell3": {
+      "type": "component",
+      "component": "shared.why-cell-icon",
+      "repeatable": false
+    },
+    "cell4": {
+      "type": "component",
+      "component": "shared.why-cell-icon",
+      "repeatable": false
+    },
+    "cell5": {
+      "type": "component",
+      "component": "shared.why-cell-5",
+      "repeatable": false
+    }
+  }
+}

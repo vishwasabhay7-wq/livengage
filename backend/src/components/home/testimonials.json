@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_testimonials",
+  "info": {
+    "displayName": "Testimonials",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "badge": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "testimonials": {
+      "type": "component",
+      "component": "shared.testimonial-card",
+      "repeatable": true
+    }
+  }
+}

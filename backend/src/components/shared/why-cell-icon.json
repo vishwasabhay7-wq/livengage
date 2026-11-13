@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_why_cell_icons",
+  "info": {
+    "displayName": "Why Cell (Icon)",
+    "icon": "star",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

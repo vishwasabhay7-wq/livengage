@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_contact_us_global_map_sections",
+  "info": {
+    "displayName": "Global Map Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "statusLabel": {
+      "type": "string"
+    },
+    "statusValue": {
+      "type": "string"
+    },
+    "statusSubtext": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "collectionName": "components_partners_engineered_impacts",
+  "info": {
+    "displayName": "Engineered Impact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "card1Title": {
+      "type": "string"
+    },
+    "card1Description": {
+      "type": "text"
+    },
+    "card1Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "card2Title": {
+      "type": "string"
+    },
+    "card2Description": {
+      "type": "text"
+    },
+    "card2MetricValue": {
+      "type": "string"
+    },
+    "card2MetricLabel": {
+      "type": "string"
+    },
+    "card3Title": {
+      "type": "string"
+    },
+    "card3Description": {
+      "type": "text"
+    },
+    "card3Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "card3Features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partners.integration-feature"
+    }
+  }
+}

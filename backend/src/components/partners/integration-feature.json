@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_partners_integration_features",
+  "info": {
+    "displayName": "Integration Feature",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

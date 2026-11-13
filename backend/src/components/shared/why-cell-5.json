@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_why_cell_5s",
+  "info": {
+    "displayName": "Why Cell 5 (Growth)",
+    "icon": "trending-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "progressLabel": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_become_a_host_stats",
+  "info": {
+    "displayName": "Stats",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "become-a-host.stat-item",
+      "max": 4
+    }
+  }
+}
