@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agent_submissions",
+  "info": {
+    "singularName": "agent-submission",
+    "pluralName": "agent-submissions",
+    "displayName": "Agent Submission",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phoneNumber": {
+      "type": "string",
+      "required": false
+    },
+    "country": {
+      "type": "string",
+      "required": false
+    },
+    "appName": {
+      "type": "enumeration",
+      "enum": [
+        "Poppo Live",
+        "Chamet",
+        "Niki Live",
+        "Mico",
+        "Tango",
+        "UpLive",
+        "Bigo Live",
+        "Other"
+      ],
+      "required": false
+    },
+    "message": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

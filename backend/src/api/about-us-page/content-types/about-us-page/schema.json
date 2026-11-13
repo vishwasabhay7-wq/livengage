@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_us_pages",
+  "info": {
+    "singularName": "about-us-page",
+    "pluralName": "about-us-pages",
+    "displayName": "About Us Page",
+    "description": "Manage the content of the about us page"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "component": "about.hero",
+      "repeatable": false
+    },
+    "MissionVision": {
+      "type": "component",
+      "component": "about.mission-vision",
+      "repeatable": false
+    },
+    "CoreValues": {
+      "type": "component",
+      "component": "about.core-values",
+      "repeatable": false
+    },
+    "Timeline": {
+      "type": "component",
+      "component": "about.timeline",
+      "repeatable": false
+    },
+    "Leadership": {
+      "type": "component",
+      "component": "about.leadership",
+      "repeatable": false
+    },
+    "CTA": {
+      "type": "component",
+      "component": "about.cta",
+      "repeatable": false
+    }
+  }
+}
