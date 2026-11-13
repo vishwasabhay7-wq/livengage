@@ -1,0 +1,36 @@
+{
+    "kind": "singleType",
+    "collectionName": "become_an_agent_pages",
+    "info": {
+        "singularName": "become-an-agent-page",
+        "pluralName": "become-an-agent-pages",
+        "displayName": "Become an Agent Page",
+        "description": "Manage the content of the become an agent page"
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "Hero": {
+            "type": "component",
+            "component": "become-an-agent.hero",
+            "repeatable": false
+        },
+        "ResponsibilitiesSection": {
+            "type": "component",
+            "component": "become-an-agent.responsibilities-section",
+            "repeatable": false
+        },
+        "revenueModelSection": {
+            "type": "component",
+            "component": "become-an-agent.revenue-model-section",
+            "repeatable": false
+        },
+        "ApplicationSection": {
+            "type": "component",
+            "component": "become-an-agent.application-section",
+            "repeatable": false
+        }
+    }
+}

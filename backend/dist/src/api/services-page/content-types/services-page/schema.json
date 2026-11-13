@@ -1,0 +1,41 @@
+{
+    "kind": "singleType",
+    "collectionName": "services_pages",
+    "info": {
+        "singularName": "services-page",
+        "pluralName": "services-pages",
+        "displayName": "Services Page",
+        "description": "Manage the content of the services page"
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "hero": {
+            "type": "component",
+            "repeatable": false,
+            "component": "services.hero"
+        },
+        "servicesList": {
+            "type": "component",
+            "repeatable": false,
+            "component": "services.services-list"
+        },
+        "partnerApps": {
+            "type": "component",
+            "repeatable": false,
+            "component": "services.partner-apps"
+        },
+        "stats": {
+            "type": "component",
+            "repeatable": false,
+            "component": "services.stats"
+        },
+        "cta": {
+            "type": "component",
+            "repeatable": false,
+            "component": "services.cta"
+        }
+    }
+}

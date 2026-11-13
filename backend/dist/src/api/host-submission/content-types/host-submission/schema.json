@@ -1,0 +1,43 @@
+{
+    "kind": "collectionType",
+    "collectionName": "host_submissions",
+    "info": {
+        "singularName": "host-submission",
+        "pluralName": "host-submissions",
+        "displayName": "Host Submission",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "fullName": {
+            "type": "string",
+            "required": true
+        },
+        "email": {
+            "type": "email",
+            "required": true
+        },
+        "phoneNumber": {
+            "type": "string"
+        },
+        "country": {
+            "type": "string"
+        },
+        "gender": {
+            "type": "enumeration",
+            "enum": [
+                "Male",
+                "Female",
+                "Other",
+                "Prefer not to say"
+            ]
+        },
+        "message": {
+            "type": "text",
+            "required": true
+        }
+    }
+}
