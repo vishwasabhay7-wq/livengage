@@ -1,6 +1,11 @@
 {
-  "dependencies": {
-    "react-markdown": "^10.1.0",
-    "remark-gfm": "^4.0.1"
+  "name": "livengage-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm run build --prefix Frontend",
+    "dev": "npm run dev --prefix Frontend",
+    "start": "npm run start --prefix Frontend",
+    "lint": "npm run lint --prefix Frontend"
   }
 }
