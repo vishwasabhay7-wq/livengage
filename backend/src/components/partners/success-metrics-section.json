@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_partners_success_metrics_sections",
+  "info": {
+    "displayName": "Success Metrics Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Metrics": {
+      "type": "component",
+      "component": "partners.metric",
+      "repeatable": true
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_join_us_role_cards_lists",
+  "info": {
+    "displayName": "Role Cards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "join-us.role-card"
+    }
+  }
+}

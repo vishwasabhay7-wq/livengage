@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_partner_app_video",
+  "info": {
+    "displayName": "Video Section"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "titleHighlight": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "videoThumbnail": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "videos",
+        "files"
+      ]
+    },
+    "creatorAvatar": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "creatorName": {
+      "type": "string"
+    },
+    "viewerCount": {
+      "type": "string"
+    }
+  }
+}

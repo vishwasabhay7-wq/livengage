@@ -1,0 +1,70 @@
+{
+  "collectionName": "components_home_heroes",
+  "info": {
+    "displayName": "Hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "badgeText": {
+      "type": "string",
+      "required": false
+    },
+    "headingPart1": {
+      "type": "string",
+      "required": false
+    },
+    "headingHighlight": {
+      "type": "string",
+      "required": false
+    },
+    "headingPart3": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "primaryCtaLabel": {
+      "type": "string",
+      "required": true
+    },
+    "primaryCtaHref": {
+      "type": "string",
+      "required": true
+    },
+    "secondaryCtaLabel": {
+      "type": "string",
+      "required": true
+    },
+    "secondaryCtaHref": {
+      "type": "string",
+      "required": true
+    },
+    "creatorCount": {
+      "type": "string",
+      "required": false
+    },
+    "earningsAmount": {
+      "type": "string",
+      "required": false
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "avatars": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

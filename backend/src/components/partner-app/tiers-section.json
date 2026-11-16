@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_partner_app_tiers_sections",
+  "info": {
+    "displayName": "Tiers Section"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "titleHighlight": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "tiers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partner-app.tier-item"
+    }
+  }
+}

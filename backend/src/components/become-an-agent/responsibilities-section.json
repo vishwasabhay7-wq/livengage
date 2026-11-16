@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_become_an_agent_responsibilities_sections",
+  "info": {
+    "displayName": "Responsibilities Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Items": {
+      "type": "component",
+      "component": "become-an-agent.responsibility",
+      "repeatable": true
+    }
+  }
+}

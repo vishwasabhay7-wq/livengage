@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_contact_us_contact_channels_sections",
+  "info": {
+    "displayName": "Contact Channels Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-us.contact-channel"
+    }
+  }
+}

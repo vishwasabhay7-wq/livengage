@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_become_a_host_requirements_lists",
+  "info": {
+    "displayName": "Requirements",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Items": {
+      "type": "component",
+      "component": "become-a-host.requirement",
+      "repeatable": true
+    }
+  }
+}

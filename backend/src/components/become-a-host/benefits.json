@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_become_a_host_benefits_lists",
+  "info": {
+    "displayName": "Benefits",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Items": {
+      "type": "component",
+      "component": "become-a-host.benefit",
+      "repeatable": true
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_contact_us_region_nodes",
+  "info": {
+    "displayName": "Region Node",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "region": {
+      "type": "string"
+    },
+    "cities": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-us.city"
+    }
+  }
+}

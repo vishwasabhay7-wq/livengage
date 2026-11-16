@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_leaderships",
+  "info": {
+    "displayName": "Leadership",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Members": {
+      "type": "component",
+      "component": "shared.team-member",
+      "repeatable": true
+    }
+  }
+}
