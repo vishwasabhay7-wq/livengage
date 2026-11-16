@@ -69,6 +69,26 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
       {
+        protocol: 'https',
+        hostname: '**.onrender.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.railway.app',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.strapiapp.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+        pathname: '/**',
+      },
+      {
         protocol: 'http',
         hostname: '127.0.0.1',
         port: '1337',
