@@ -1,0 +1,10 @@
+export { PartnerAppHero } from './PartnerAppHero';
+export { PartnerAppBenefits } from './PartnerAppBenefits';
+export { PartnerAppVideo } from './PartnerAppVideo';
+export { PartnerAppTools } from './PartnerAppTools';
+export { PartnerAppTiers } from './PartnerAppTiers';
+export { PartnerAppTestimonials } from './PartnerAppTestimonials';
+export { PartnerAppSteps } from './PartnerAppSteps';
+export { PartnerAppFaq } from './PartnerAppFaq';
+export { PartnerAppSupport } from './PartnerAppSupport';
+export { PartnerAppTechReqs } from './PartnerAppTechReqs';
