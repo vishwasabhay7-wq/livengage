@@ -1,6 +1,15 @@
 {
-  "dependencies": {
-    "react-markdown": "^10.1.0",
-    "remark-gfm": "^4.0.1"
+  "name": "livengage-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Livengage - Live Streaming Agency Platform (Next.js Frontend & Strapi CMS Backend)",
+  "scripts": {
+    "dev": "npm run dev --prefix Frontend",
+    "build": "npm run build --prefix Frontend",
+    "start": "npm run start --prefix Frontend",
+    "lint": "npm run lint --prefix Frontend",
+    "backend:dev": "npm run dev --prefix backend",
+    "backend:build": "npm run build --prefix backend",
+    "backend:start": "npm run start --prefix backend"
   }
 }
