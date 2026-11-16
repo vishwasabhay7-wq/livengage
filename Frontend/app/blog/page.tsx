@@ -8,6 +8,7 @@ import { cn } from '@/lib/utils';
 import { notFound } from 'next/navigation';
 import { buildMetadata } from '@/lib/seo';
 import { blogHref, blogHeading } from '@/lib/blog-routes';
+import { mockBlogs } from '@/lib/mockBlogs';
 
 const getBlogUrl = (blog: BlogPost) => blogHref(blog);
 
@@ -31,7 +32,7 @@ export default async function BlogsPage({ searchParams }: BlogsPageProps) {
   const strapiRes = await blogService.getBlogs(currentPage, PAGE_SIZE);
   const realBlogs: BlogPost[] = strapiRes?.data || [];
   
-  const allBlogs: BlogPost[] = realBlogs;
+  const allBlogs: BlogPost[] = realBlogs.length > 0 ? realBlogs : mockBlogs;
   const totalBlogs = allBlogs.length;
   const totalPages = Math.ceil(totalBlogs / PAGE_SIZE);
 

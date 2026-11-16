@@ -42,37 +42,26 @@ export async function POST(request: Request) {
       strapiErrorDetails = strapiError;
     }
 
-    if (!strapiSuccess) {
-      return NextResponse.json({ 
-        success: false, 
-        message: 'Failed to save to database. Check Strapi permissions.',
-        details: strapiErrorDetails
-      }, { status: 500 });
-    }
+    // 2. Send Email via Nodemailer if configured
+    let emailSent = false;
+    let emailError = null;
 
-    // 2. Send Email via Nodemailer
-    if (!process.env.EMAIL_APP_PASSWORD) {
-      console.warn('EMAIL_APP_PASSWORD not set. Skipping email dispatch.');
-      return NextResponse.json({ 
-        success: false, 
-        message: 'Database saved, but email failed because EMAIL_APP_PASSWORD is not set in .env.local',
-      }, { status: 500 });
-    }
+    if (process.env.EMAIL_APP_PASSWORD) {
+      try {
+        const transporter = nodemailer.createTransport({
+          service: 'gmail',
+          auth: {
+            user: process.env.EMAIL_USER || 'official.livengage@gmail.com',
+            pass: process.env.EMAIL_APP_PASSWORD,
+          },
+        });
 
-    const transporter = nodemailer.createTransport({
-      service: 'gmail',
-      auth: {
-        user: process.env.EMAIL_USER || 'official.livengage@gmail.com',
-        pass: process.env.EMAIL_APP_PASSWORD,
-      },
-    });
-
-    const mailOptions = {
-      from: `"${name}" <${process.env.EMAIL_USER || 'official.livengage@gmail.com'}>`,
-      replyTo: email,
-      to: 'official.livengage@gmail.com',
-      subject: `New Inquiry from ${name} - Livengage Contact`,
-      text: `
+        const mailOptions = {
+          from: `"${name}" <${process.env.EMAIL_USER || 'official.livengage@gmail.com'}>`,
+          replyTo: email,
+          to: 'official.livengage@gmail.com',
+          subject: `New Inquiry from ${name} - Livengage Contact`,
+          text: `
 You have received a new inquiry from the Livengage website:
 
 Name: ${name}
@@ -83,15 +72,33 @@ App Name: ${appName || 'Not provided'}
 
 Message:
 ${message}
-      `,
-    };
+          `,
+        };
 
-    await transporter.sendMail(mailOptions);
+        await transporter.sendMail(mailOptions);
+        emailSent = true;
+      } catch (err) {
+        console.error('Email dispatch error:', err);
+        emailError = err;
+      }
+    } else {
+      console.warn('EMAIL_APP_PASSWORD not set. Skipping email dispatch.');
+    }
+
+    if (strapiSuccess || emailSent) {
+      return NextResponse.json({ 
+        success: true, 
+        message: 'Message dispatched successfully',
+        savedToDatabase: strapiSuccess,
+        emailSent: emailSent
+      }, { status: 200 });
+    }
 
     return NextResponse.json({ 
-      success: true, 
-      message: 'Message dispatched successfully',
-    }, { status: 200 });
+      success: false, 
+      message: 'Failed to process inquiry. Please try again or reach out on WhatsApp.',
+      details: strapiErrorDetails || emailError
+    }, { status: 500 });
 
   } catch (error) {
     console.error('Error in contact API route:', error);
