@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "become_a_host_pages",
+  "info": {
+    "singularName": "become-a-host-page",
+    "pluralName": "become-a-host-pages",
+    "displayName": "Become a Host Page",
+    "description": "Manage the content of the become a host page"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "component": "become-a-host.hero",
+      "repeatable": false
+    },
+    "Stats": {
+      "type": "component",
+      "component": "become-a-host.stats",
+      "repeatable": false
+    },
+    "Requirements": {
+      "type": "component",
+      "component": "become-a-host.requirements",
+      "repeatable": false
+    },
+    "Benefits": {
+      "type": "component",
+      "component": "become-a-host.benefits",
+      "repeatable": false
+    },
+    "ApplicationSection": {
+      "type": "component",
+      "component": "become-a-host.application-section",
+      "repeatable": false
+    }
+  }
+}
